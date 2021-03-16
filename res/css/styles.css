@@ -1,0 +1,16 @@
+.brand-text {
+    color: #283892;
+    font-weight: 600;
+    font-family: arial,sans-serif;
+}
+
+.acm-blue {
+    background-color: #283892;
+}
+.acm-blue-text {
+    color: #283892;
+}
+
+#nav-logo {
+    width: 10vw;
+}

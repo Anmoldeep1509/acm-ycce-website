@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACM YCCE SB</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/acm-white.png"/>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
     />
+
+    <link rel="stylesheet" href="/res/css/styles.css">
   </head>
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-          <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
-          ACM YCCE SB
+        <a class="navbar-item" href="#">
+          <img src="/images/acm_sc_clear.png"  id="nav-logo"/>
+          <span class="brand-text">Yeshwantrao Chavan College <br> of Engineering, Hingna.</span> 
         </a>
 
         <a
@@ -33,19 +37,18 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item"> Home </a>
+          <a class="navbar-item" href="#"> Home </a>
 
-          <a class="navbar-item"> About </a>
+          <a class="navbar-item" href="#"> About </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> Sessions </a>
+            <a class="navbar-link" href="#"> Sessions </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item"> Upcoming Sessions </a>
-              <a class="navbar-item"> </a>
-              <a class="navbar-item"> Suggest a session </a>
+              <a class="navbar-item" href="#"> Upcoming Sessions </a>
               <hr class="navbar-divider" />
-              <a class="navbar-item"> Suggest a speaker </a>
+              <a class="navbar-item" href="#"> Suggest a session </a>
+              <a class="navbar-item" href="#"> Suggest a speaker </a>
             </div>
           </div>
         </div>
@@ -53,10 +56,10 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-primary">
+              <a class="button is-primary acm-blue" href="#">
                 <strong>Sign up</strong>
               </a>
-              <a class="button is-light"> Log in </a>
+              <a class="button is-light" href="#"> Log in </a>
             </div>
           </div>
         </div>
@@ -64,53 +67,117 @@
     </nav>
     <main>
       <!-- intro section -->
-        <section class="section box">
-          <div class="container">
-            <div class="heading">
-              <h1 class="title">Section</h1>
-              <h2 class="subtitle">
-                A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-              </h2>
-            </div>
-          </div>
-        </section>
+      <section class="section box">
+        <div class="container">
+     
+            <div class="columns ">
+              <div class="column">
+                <figure class="image is-3by2 is-480x320">
+                  <img src="/images/acm_ycce_white.png" />
+                </figure>
+              </div>
+              <div class="column is-two-thirds">
+                <!-- <div class="tile is-parent">
+                  <div class="tile is-child  is-link mt-5">
 
-        <!-- stats bar -->
-          <nav class="level is-mobile">
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Tweets</p>
-                <p class="title">3,456</p>
+                    <section class="hero ">
+                      <div class="hero-body">
+                        <p class="title">
+                          A Student's Society at YCCE
+                        </p>
+                        <p class="subtitle">
+                          For learning, networking, and growing together
+                        </p>
+
+                        madsfasdfadfadsf
+                        adfasdfasdfasgadsbr br
+                        <br><br><br>
+                      </div>
+                    </section>
+                  </div>
+                </div> -->
+                <!-- tile ended -->
+                <!-- <div class="tile is-parent">
+                  <div class="tile is-child notification is-link">
+
+                    <section class="hero ">
+                      <div class="hero-body">
+                        <p class="title">
+                          A Student's Society at YCCE
+                        </p>
+                        <p class="subtitle">
+                          For learning, networking, and growing together
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+                </div> -->
+                <!-- tile ended -->
+                <figure class="image is-3by1">
+                  <iframe class="has-ratio" width="720" height="240" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe>
+                </figure>
               </div>
             </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Following</p>
-                <p class="title">123</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Followers</p>
-                <p class="title">456K</p>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <p class="heading">Likes</p>
-                <p class="title">789</p>
-              </div>
-            </div>
-          </nav>
-          <!-- Connect with us section -->
-          <section class="section box has-text-centered">
-            <div class="container">
-                <h1 class="title mb-6 is-size-2">Connect with us</h1>
-                <h2 class="subtitle is-size-4">
-                  We <strong> ❤️</strong>  to grow from suggestions , so feel free to share it with us!
-                </h2>
-            </div>
-          </section>
+
+          </div>
+
+          <div class="heading">
+            <h1 class="title">Section</h1>
+            <h2 class="subtitle">
+              A simple container to divide your page into
+              <strong>sections</strong>, like the one you're currently reading
+            </h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- stats bar -->
+      <nav class="level is-mobile">
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Tweets</p>
+            <p class="title">3,456</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Following</p>
+            <p class="title">123</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Followers</p>
+            <p class="title">456K</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Likes</p>
+            <p class="title">789</p>
+          </div>
+        </div>
+      </nav>
+      <!-- Connect with us section -->
+      <section class="section box has-text-centered">
+        <div class="container">
+          <h1 class="title mb-6 is-size-2">Connect with us</h1>
+          <h2 class="subtitle is-size-4">
+            We <strong> ❤️</strong> to grow from suggestions , so feel free to
+            share it with us!
+          </h2>
+
+          024 facebook
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>ACM Student Chapter YCCE - Official Website </strong>built with &hearts;	 by Team ACM-SC YCCE and <a href="http://linkedin.com/in/csesingh">CSE Singh</a>.
+        </p>
+      </div>
+    </footer>by
   </body>
 </html>
